@@ -15,5 +15,5 @@ else if (number == 0)
 
 else
 {
-	console.log("The number is negative"); // check if number is less than zero
+	console.log("The number is negative number"); // check if number is less than zero
 }
