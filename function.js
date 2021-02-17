@@ -13,10 +13,10 @@ function add(x,y) // defining the function
 }
 
 //taking the value from the user 
-let number1 = prompt("enter the first number");
-let number2 = prompt("enter the second number");
+let number1 = parseInt(prompt("enter the first number"));
+let number2 = parseInt(prompt("enter the second number"));
 
-var result = add(number1,number2); // calling the function
+add(number1,number2); // calling the function
 console.log("The sum is " + result); // displaying the function
 
 

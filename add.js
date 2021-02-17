@@ -1,4 +1,4 @@
-function add(a,b)
+var add = (a,b) =>
 {
 	console.log(a+b);
 }
@@ -27,6 +27,6 @@ sayHello();
 ) ();
 
 (() => {
-	console.log (" I am fine ji");
+	console.log (" I am fine ");
 }
 ) ();

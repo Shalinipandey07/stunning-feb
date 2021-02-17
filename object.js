@@ -15,5 +15,5 @@ let user = {
 console.log(user.age);
 console.log(user.name);
 console.log(user.favouriteColours[0]);
-console.log(typeof(age));
-console.log(typeof(name));
+console.log (typeof(age));
+console.log (typeof(favouriteColours));

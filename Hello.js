@@ -1,8 +1,22 @@
-function returnSum (x,y)
+function combination(...strings)
 {
-	var sum = x + y;
-	return sum ;
-} 
-var x = 45;
-var y = 55;
-document.write( $(x) $(y) returnsum(x,y));
+	console.log("Hello","world","!!!!!!");
+}
+combination();
+
+//default function 
+function createD(x = 'default' , y = shalini , z = pandey){
+	console.log("kl");
+}
+createD("default" , "shalini" , "pandey");
+
+
+function increment(count = 0)
+{
+console.log(count);
+count++;
+if (count===1){
+	increment(count)
+}
+}
+increment();
